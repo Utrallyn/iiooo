@@ -3,7 +3,9 @@
 *{
     margin: 0px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     width: 100%;
@@ -11,11 +13,18 @@ header{
     background: rgb(230,200,160);
     margin-bottom: 20px;
 }
-header a{
-    padding: 1px;
-    margin: 4px 0;
-    font-size: 30px;
+header ul{
+    display: flex;
+    list-style: none;
 }
+header ul a{
+    display: block;
+    margin: 40px 0;
+    text-decoration: none;
+    color: white;
+
+}
+
 header img{
     width: 90px;
     height: 90px;
